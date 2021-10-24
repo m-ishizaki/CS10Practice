@@ -1,14 +1,14 @@
-﻿{ // レコード構造体
+﻿{ // レコード構造体 (型の定義は末尾)
     SampleRecordStruct sampleRecordStruct = new(1);
-    sampleRecordStruct.Value1 = 2;
+    sampleRecordStruct.Value1 = 2; // 変更可能
 }
 
-{ // レコードクラス (以前からの機能)
+{ // レコードクラス (以前からの機能) (型の定義は末尾)
     SampleClass sampleClass = new(1);
     // sampleClass.Value1 = 2; これはエラー。レコードクラスは不変
 }
 
-{ // 不変のレコード構造体
+{ // 不変のレコード構造体 (型の定義は末尾)
     SampleReadolyStruct sampleReadonlyStruct = new(1);
     // sampleReadonlyStruct.Value1 = 2; これはエラー
 }
@@ -33,7 +33,6 @@
     sampleStruct.Value1 = 2;
 
     // with 式は通常の構造体でも使える
-    var struct3 = sampleStruct with { Value1 = 3 };
     var struct4 = sampleStruct with { Value1 = 2 };
 
     // ToString の結果は「SampleStruct」構造体の名前だけの実装
@@ -43,6 +42,7 @@
 }
 
 
+// 以降、型の定義
 
 // レコード構造体
 record struct SampleRecordStruct(int Value1);
