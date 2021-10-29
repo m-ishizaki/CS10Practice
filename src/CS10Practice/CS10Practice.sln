@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31717.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS10Practice", "CS10Practice\CS10Practice.csproj", "{A04ED6B5-7D67-4CDC-99BC-83DAC77F8EDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS10Practice", "CS10Practice\CS10Practice.csproj", "{A04ED6B5-7D67-4CDC-99BC-83DAC77F8EDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordStructs", "RecordStructs\RecordStructs.csproj", "{E12BA017-B69A-4B15-B9CE-B5B69B621CB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordStructs", "RecordStructs\RecordStructs.csproj", "{E12BA017-B69A-4B15-B9CE-B5B69B621CB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterlessStructConstructors", "ParameterlessStructConstructors\ParameterlessStructConstructors.csproj", "{2B018A23-8486-4439-B40F-09768ABE356C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParameterlessStructConstructors", "ParameterlessStructConstructors\ParameterlessStructConstructors.csproj", "{2B018A23-8486-4439-B40F-09768ABE356C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalUsing", "GlobalUsing\GlobalUsing.csproj", "{F8572697-0F8B-4682-A494-D2869587A327}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalUsing", "GlobalUsing\GlobalUsing.csproj", "{F8572697-0F8B-4682-A494-D2869587A327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileScopedNamespaces", "FileScopedNamespaces\FileScopedNamespaces.csproj", "{885B3181-4C5E-4E66-B674-A79AFB054FCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendedPropertyPatterns", "ExtendedPropertyPatterns\ExtendedPropertyPatterns.csproj", "{E32CE790-1196-4690-8C6C-A244EA4C8333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImprovedInterpolatedStrings", "ImprovedInterpolatedStrings\ImprovedInterpolatedStrings.csproj", "{C878D45E-D4B2-4A9C-A4A0-4257398134D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{F8572697-0F8B-4682-A494-D2869587A327}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8572697-0F8B-4682-A494-D2869587A327}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8572697-0F8B-4682-A494-D2869587A327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885B3181-4C5E-4E66-B674-A79AFB054FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885B3181-4C5E-4E66-B674-A79AFB054FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885B3181-4C5E-4E66-B674-A79AFB054FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885B3181-4C5E-4E66-B674-A79AFB054FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E32CE790-1196-4690-8C6C-A244EA4C8333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E32CE790-1196-4690-8C6C-A244EA4C8333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E32CE790-1196-4690-8C6C-A244EA4C8333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E32CE790-1196-4690-8C6C-A244EA4C8333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C878D45E-D4B2-4A9C-A4A0-4257398134D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C878D45E-D4B2-4A9C-A4A0-4257398134D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C878D45E-D4B2-4A9C-A4A0-4257398134D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C878D45E-D4B2-4A9C-A4A0-4257398134D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
