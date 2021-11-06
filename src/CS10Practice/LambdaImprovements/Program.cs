@@ -1,5 +1,5 @@
 ﻿MapAction([HttpPost("/")] ([FromBody] string todo) => todo);    // ラムダで属性が使える
-MapAction(string (todo) => todo);   // 直接各ラムダで return の型ががける
+MapAction(string (todo) => todo);   // 直接書くラムダで return の型ががける
 
 //MapAction([HttpPost("/")] todo => todo);    // これはエラー。ラムダに属性をつける場合、引数リストは ( ) が必要
 MapAction([HttpPost("/")] (todo) => todo);  // これは ( ) があるので OK
