@@ -7,7 +7,7 @@ public static class Debug
 {
     public static void Assert(bool condition, [System.Runtime.CompilerServices.CallerArgumentExpression("condition")] string message = null)
     {
-        // message に式の叔父列が入ってくる
+        // message に式の文字列が入ってくる
         System.Console.WriteLine(message);
     }
 }
